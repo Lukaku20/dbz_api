@@ -1,16 +1,17 @@
-import React from 'react'
 
 
-const Heaader = () => {
-    return (
-        <div>
-            <div className="App">
-                <header className="App-header">
-                    <h1> Dragon Ball Z - Referencias </h1>
-                    <p> Este es un proyecto de referencia para el curso de React de CoderHouse </p>      </header>
-            </div>
-        </div>
-    )
-}
 
-export default Heaader
+import React from 'react';
+
+const Header = () => {
+  return (
+    <header className="bg-orange-500 text-white font-bold">
+      <div className="container mx-auto py-8 flex justify-between items-center">
+        <h1 className="text-4xl">Dragon Ball Z</h1>
+       <h3> Esta página fue creada para el curso de React de Egg</h3>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
